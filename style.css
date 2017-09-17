@@ -1,0 +1,141 @@
+html, body {
+	font-family: Quicksand, sans-serif;
+	background-color: #98FB98; /* light green */
+	/* for GREEN CHART: http://www.rapidtables.com/web/color/green-color.htm; */
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+	padding: 30px;
+	color: white;
+}
+
+.webpage {
+	background-color: skyblue;
+}
+
+
+#grad {
+	background-color: #00FFFF;
+    /*background: gold; /* For browsers that do not support gradients */
+    /*background: -webkit-linear-gradient(gold, gold); /* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(gold, gold); /* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(gold, gold); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#00FFFF, gold); /* Standard syntax */
+
+}
+
+.scioweb, .contactme, .offsci {
+ /*any code to spruce this up?*/
+}
+
+
+.navbar {
+	background-color: #20B2AA; /* light sea green */
+	padding-top: 5px;
+	margin-top: 10px;
+	border-radius:10px;
+
+
+}
+
+.sidebar {
+
+	background-color: deepskyblue;
+	border-radius: 20px;
+
+}
+
+.web {
+
+	background-color: palegreen;
+
+}
+
+.row {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.col-lg-4, .col-sm-3{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.col-lg-8, .col-sm-9 {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+img.jenny {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+img.linkedin {
+    display: block;
+    margin: auto;
+}
+
+
+div.aboutme {
+	/*background-image: url("https://cdn.pixabay.com/photo/2016/04/15/04/02/water-1330252_960_720.jpg");*/
+	/*CREDIT*/
+	color: white;
+	font-weight: 3px;
+	padding: 20px;
+
+}
+
+.events {
+	margin-bottom: 30px;
+}
+
+
+/* CSS for the resposive top nav bar */
+
+.dropbtn {
+    background-color: #20B2AA;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #20B2AA;
+}

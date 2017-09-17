@@ -1,0 +1,74 @@
+html, body {
+	font-family: Quicksand, sans-serif;
+	background-color: lightgreen;
+}
+
+a:hover {
+	text-decoration: none;
+	color: gold;
+}
+
+#grad {
+ 	background-color: #00FFFF;
+    /*background: gold; /* For browsers that do not support gradients */
+    /*background: -webkit-linear-gradient(gold, gold); /* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(gold, gold); /* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(gold, gold); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#00FFFF, gold); /* Standard syntax */
+ }
+
+ .title {
+ 	padding: 10px;
+ }
+
+ img.jenny {
+    display: block;
+    margin: auto;
+}
+
+img.linkedin {
+    display: block;
+    margin: auto;
+}
+
+
+div.aboutme {
+	/*background-image: url("https://cdn.pixabay.com/photo/2016/04/15/04/02/water-1330252_960_720.jpg");*/
+	/*CREDIT*/
+	color: white;
+	font-weight: 3px;
+	padding: 20px;
+
+}
+
+#profile {
+	background-color: deepskyblue;
+	margin-top: 40px;
+	border-radius: 30px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+
+}
+
+.contact {
+	background-color: limegreen;
+	border-radius: 30px;
+	margin-top: 40px;
+	margin-left: 30px;
+	margin-right: -5px;
+	padding-left: 30px;
+	margin-bottom: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.addbox {
+	background-color: #D8E6AD; /*weird light green grass*/
+	border-radius: 30px;
+	margin-top: 10px;
+	margin-left: 15px;
+	padding-left: 30px;
+	margin-bottom: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
